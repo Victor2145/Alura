@@ -1,0 +1,1 @@
+let listaDeFrutas = [maça, Banana, Uva, Morango];

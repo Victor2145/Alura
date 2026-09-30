@@ -1,0 +1,47 @@
+:root {
+    --cor-botao: #f10505;
+    --cor-header: linear-gradient(to right, red, rgb(16, 15, 17) 25%, rgb(175, 169, 169));
+    --cor-footer: linear-gradient(to right, rgb(175, 169, 168), rgb(16, 15, 17) 25%, rgb(240, 3, 3));
+}
+
+
+#botao {
+    display: block;
+    margin: 40px auto; 
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px; 
+    cursor: pointer;
+    color: #f1f1f1;
+    background-color: var(--cor-botao); 
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background: var(--cor-header);
+    color: #f1f1f1;
+    
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
+header h1 {
+    margin: 0; 
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: var(--cor-footer);
+    color: #f1f1f1;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
